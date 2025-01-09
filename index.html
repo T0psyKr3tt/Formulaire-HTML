@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire de Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="success_message" style="display: none; color: green; text-align: center;">
+        Formulaire soumis avec succès !
+    </div>
+    <form id="mon_form">
+        <h2>Sign up form</h2>
+        <label for="first_name">First Name</label>
+        <input type="text" id="first_name">
+        <span id="error_name"></span>
+
+        <label for="last_name">Last Name</label>
+        <input type="text" id="last_name">
+        <span id="error_lastname"></span>
+
+        <label for="email">Email</label>
+        <input type="email" id="email">
+        <span id="error_email"></span>
+
+        <button type="submit">Send</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
